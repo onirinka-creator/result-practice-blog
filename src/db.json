@@ -1,0 +1,61 @@
+{
+	"users": [
+		{
+			"id": "001",
+			"login": "admin_login",
+			"password": "qwerty",
+			"name": "Admin",
+			"registered_at": "2021-01-01",
+			"role_id": "123"
+		}
+	],
+	"roles": [
+		{
+			"id": 0,
+			"name": "Administrator"
+		},
+		{
+			"id": 1,
+			"name": "Moderator"
+		},
+		{
+			"id": 2,
+			"name": "User"
+		},
+		{
+			"id": 3,
+			"name": "Guest"
+		}
+	],
+	"posts": [
+		{
+			"id": "001",
+			"title": "My first post",
+			"image_url": "https://fastly.picsum.photos/id/524/300/200.jpg?hmac=BfVp5RaShMT7s8vv3FvaKBwZgS4luFqcWndAfTswe_I",
+			"content": "This is my first post. I'm very happy to write it.",
+			"published_at": "2021-01-01"
+		},
+		{
+			"id": "002",
+			"title": "Learn React",
+			"image_url": "https://fastly.picsum.photos/id/284/300/200.jpg?hmac=ktwMCPIkeh9ISiC0EghoQLh-VAmRXiii0DBqhrYIyQQ",
+			"content": "React is a JavaScript library for building user interfaces. It's very easy to learn and use. And it's very powerful.",
+			"published_at": "2021-01-02"
+		},
+		{
+			"id": "003",
+			"title": "Learn Node.js",
+			"image_url": "https://fastly.picsum.photos/id/613/300/200.jpg?hmac=HBef6BibNUIRVnUP6cjqz8gfXjGiA2spUhRV_R91eqo",
+			"content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Perfect for building server-side applications.",
+			"published_at": "2021-01-03"
+		},
+		{
+			"id": "004",
+			"title": "Learn Python",
+			"image_url": "https://fastly.picsum.photos/id/152/300/200.jpg?hmac=aukl-JWaDTBbQNHu_bSB-P50E4q6bPZinzdjGpzAhzM",
+			"content": "Python is a versatile programming language. Perfect for building web applications and data analysis. With its simple syntax and readability, Python allows developers to quickly prototype and build robust applications. It has a thriving ecosystem of libraries and frameworks such as Django, Flask, and FastAPI for web development, making complex projects more manageable. For data analysis and scientific computing, Python provides powerful tools like NumPy, pandas, and Matplotlib, simplifying data manipulation, visualization, and machine learning tasks. Its widespread use in artificial intelligence and automation ensures that Python skills remain highly relevant in today's job market. Whether you're just starting out or are an experienced developer, learning Python opens up a world of opportunities, from creating web apps and APIs to analyzing massive datasets and building AI-powered solutions. The supportive and active Python community further enhances the learning experience, with countless resources, tutorials, and open-source projects to contribute to or draw inspiration from.",
+			"published_at": "2021-01-04"
+		}
+	],
+	"comments": []
+}
